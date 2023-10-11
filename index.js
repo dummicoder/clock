@@ -11,7 +11,7 @@ function updateClock(){
 
 if (h>12){
     h = h-12;
-    appm = "PM"
+    ampm = "PM"
 }
 
 h = h < 10 ? "0" + h : h;
